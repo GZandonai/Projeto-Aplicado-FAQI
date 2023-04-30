@@ -1,0 +1,115 @@
+
+
+body {
+    background-image: linear-gradient(to bottom, rgba(0, 108, 250, 0.618), rgba(129, 59, 234, 0.231));
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+p{
+
+    font-size: 20px;
+}
+
+
+hr {   
+    border: solid rgb(134, 219, 236);
+    border-width: 3px;
+}
+
+ /*Define os atributos do menu lateral e o logo */
+.menu {
+    height: 100%;
+    width: 0;
+    position: fixed;
+    z-index: 1;
+    top: 0;
+    left: 0;
+    background-color: rgba(0, 0, 0, 0.965);
+    overflow-x: hidden;
+    transition: 0.5s;
+    padding-top: 60px;
+
+    
+}
+
+.menu .botaofechar-menu{
+    position:absolute;
+    top: 0;
+    right: 25px;
+    font-size: 36px;
+    margin-left: 50px;
+
+}
+ /*Define os links do menu lateral*/
+.menu a {
+    padding: 8px 8px 8px 32px;
+    text-decoration: none;
+    font-size: 20px;
+    color:rgba(0, 108, 250, 0.618);
+    display: block;
+    transition: 0.4s;
+}
+.menu a:hover{
+    color:rgba(129, 59, 234, 0.231) ;
+
+}
+
+#principal {
+    background:none;
+    padding: 1px 10px;
+    transition: margin-left 0.5s;
+}
+
+/*Menu responsivel p/ resoluções menores ele ira se ajustar*/
+@media screen and (max-height: 450px){
+    .menu {padding-top: 15px;}
+    .menu a{font-size: 18px;}
+
+    }
+
+.logo {
+    font-family: 'Poltawski Nowy', serif;
+    font-size: 60px;
+    background-repeat: no-repeat;
+    display:flex;
+    justify-content: center;
+    animation:zoomIn;
+    animation-duration: 3s;
+    margin-top: 0;
+    margin-bottom: 30px;
+}
+
+/*Estilzando conteudo superior da página*/
+
+.conteudo1 {    
+    display: flex;
+    background-image: url(imgs/teste1.jpg);
+    background-size:calc(100%)100%;
+    background-repeat: no-repeat;
+    padding:10px;
+    border: solid;
+    border-width: 5px;
+    border-radius: 10px ;
+    border-color: rgb(134, 219, 236);
+}
+
+.texto1{
+    font-size: 2vw;
+    border:solid;
+    padding:20px;
+    border-color: rgb(5, 97, 107);
+    border-radius: 10px;
+    background-color: rgba(134, 219, 236, 0.925);
+    width: 30%;
+    margin:20px;
+
+}
+
+/*Estilzando conteudo do meio da pagina da página*/
+
+
+
+
+.lista3{
+    list-style-type:square;
+}
