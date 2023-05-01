@@ -168,17 +168,18 @@ hr {
 
 }
 
-.conteudo2 ul{
-    list-style-type:;
-}
 
 .conteudo2 img {
     border: solid;
     border-radius: 10px;
     border-color:rgb(5, 97, 107);
+    max-width: 100%;
+    height: auto;
 
 }
 .conteudo3 {
+    display: flex;
+    align-items: center;
     border:solid;
     border-width: 5px;
     border-radius: 10px;
@@ -187,6 +188,39 @@ hr {
     padding: 20px;
 
 }
+
+.conteudo3 img {
+    float:left;
+    border: solid;
+    border-radius: 10px;
+    border-color: rgb(5, 97, 107);
+    margin:10px;
+    max-width: 70%;
+}
+
+.conteudo3 p {
+    font-size: 1vw;
+
+}
+
+.conteudo3 a {
+    color:rgb(5, 97, 107) ;
+    font-weight: bold;
+    font-size: 1vw;
+    text-decoration: none;
+}
+
+#linkcalculadora {
+    padding: 8px;
+}
+#linkcalculadora:hover{
+    top:-3px;
+    box-shadow: 5px 5px 5px 1px rgb(5, 69, 154);
+    border-radius: 10px;
+    background-color:rgb(134, 219, 236);
+    
+}
+
 
 .conteudo4 {
     border:solid;
@@ -195,6 +229,7 @@ hr {
     border-color: rgb(5, 97, 107);
     border-color: rgb(134, 219, 236);
     padding: 20px;
+
 
 }
 

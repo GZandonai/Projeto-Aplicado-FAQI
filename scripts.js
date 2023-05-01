@@ -10,8 +10,3 @@ function fecharMenu (){
     document.getElementById("principal").style.marginLeft="0px";
 
 }
-
-function movelogo (){
-    document.getElementById ("logo")
-
-}
