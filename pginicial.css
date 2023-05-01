@@ -80,10 +80,9 @@ hr {
 }
 
 /*Estilzando conteudo superior da página*/
-
 .conteudo1 {    
     display: flex;
-    background-image: url(imgs/teste1.jpg);
+    background-image: url(imgs/imgconteudo1.jpg);
     background-size:calc(100%)100%;
     background-repeat: no-repeat;
     padding:10px;
@@ -105,11 +104,89 @@ hr {
 
 }
 
-/*Estilzando conteudo do meio da pagina da página*/
-
-
-
-
-.lista3{
-    list-style-type:square;
+.texto1 p{
+    font-size: 1vw;
 }
+
+/*Estilzando conteudo do meio da pagina da página*/
+.conteudo2 {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    border:solid;
+    border-width: 5px;
+    border-radius: 10px;
+    border-color: rgb(5, 97, 107);
+    border-color: rgb(134, 219, 236);
+    padding: 20px;
+
+}
+
+.conteudo2 h2 {
+    display: flex;
+    justify-content: center;
+    font-size: 2vw;
+    border-bottom: solid;
+    border-color: rgb(134, 219, 236);
+    padding-bottom: 15px;
+  
+
+}
+
+.conteudo2 li{
+    font-size: 1vw;
+    margin: 15px;
+
+
+}
+
+.conteudo2 ul{
+    list-style-type:;
+}
+
+.conteudo2 img {
+    border: solid;
+    border-radius: 10px;
+    border-color:rgb(5, 97, 107);
+
+}
+.conteudo3 {
+    border:solid;
+    border-width: 5px;
+    border-radius: 10px;
+    border-color: rgb(5, 97, 107);
+    border-color: rgb(134, 219, 236);
+    padding: 20px;
+
+}
+
+.conteudo4 {
+    border:solid;
+    border-width: 5px;
+    border-radius: 10px;
+    border-color: rgb(5, 97, 107);
+    border-color: rgb(134, 219, 236);
+    padding: 20px;
+
+}
+
+
+/*Estilzando conteudo do final da pagina da página*/
+.conteudo5 {
+    border:solid;
+    border-width: 5px;
+    border-radius: 10px;
+    border-color: rgb(5, 97, 107);
+    border-color: rgb(134, 219, 236);
+    padding: 20px;
+
+}
+
+.conteudo5 li{
+    list-style-type: square;
+}
+
+
+
+
