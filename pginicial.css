@@ -1,5 +1,9 @@
 
+main {
+    animation:fadeInUpBig;
+    animation-duration: 1.5s;
 
+}
 body {
     background-image: linear-gradient(to bottom, rgba(0, 108, 250, 0.618), rgba(129, 59, 234, 0.231));
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
@@ -33,6 +37,7 @@ hr {
 }
 
 .menu .botaofechar-menu{
+
     position:absolute;
     top: 0;
     right: 25px;
@@ -40,7 +45,17 @@ hr {
     margin-left: 50px;
 
 }
- /*Define os links do menu lateral*/
+
+
+
+#principal {
+    color:rgb(5, 69, 154);
+    background:none;
+    padding: 1px 10px;
+    transition: margin-left 0.5s;
+}
+
+/*Define os links do menu lateral*/
 .menu a {
     padding: 8px 8px 8px 32px;
     text-decoration: none;
@@ -51,14 +66,12 @@ hr {
 }
 .menu a:hover{
     color:rgba(129, 59, 234, 0.231) ;
+    
 
 }
 
-#principal {
-    background:none;
-    padding: 1px 10px;
-    transition: margin-left 0.5s;
-}
+
+
 
 /*Menu responsivel p/ resoluções menores ele ira se ajustar*/
 @media screen and (max-height: 450px){
@@ -67,7 +80,8 @@ hr {
 
     }
 
-.logo {
+.logo  {
+   
     font-family: 'Poltawski Nowy', serif;
     font-size: 60px;
     background-repeat: no-repeat;
@@ -75,8 +89,21 @@ hr {
     justify-content: center;
     animation:zoomIn;
     animation-duration: 3s;
+    animation-delay: 1.5s;
     margin-top: 0;
     margin-bottom: 30px;
+}
+
+.logo a {
+    color:rgb(5, 69, 154);
+    text-decoration: none;
+}
+
+#logo{position:relative}
+#logo:hover{
+    top:-3px;
+    box-shadow: 1px 5px 5px 1px rgb(5, 69, 154);
+
 }
 
 /*Estilzando conteudo superior da página*/
