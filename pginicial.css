@@ -7,6 +7,7 @@ main {
 body {
     background-image: linear-gradient(to bottom, rgba(0, 108, 250, 0.618), rgba(129, 59, 234, 0.231));
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    
 }
 
 p{
@@ -14,11 +15,12 @@ p{
     font-size: 20px;
 }
 
-
 hr {   
     border: solid rgb(134, 219, 236);
     border-width: 3px;
 }
+
+
 
  /*Define os atributos do menu lateral e o logo */
 .menu {
@@ -90,8 +92,7 @@ hr {
     animation:zoomIn;
     animation-duration: 3s;
     animation-delay: 1.5s;
-    margin-top: 0;
-    margin-bottom: 30px;
+    margin: 20px;
 }
 
 .logo a {
@@ -102,7 +103,7 @@ hr {
 #logo{position:relative}
 #logo:hover{
     top:-3px;
-    box-shadow: 1px 5px 5px 1px rgb(5, 69, 154);
+    box-shadow: 1px 5px 10px 3px rgb(5, 69, 154);
 
 }
 
@@ -116,7 +117,7 @@ hr {
     border: solid;
     border-width: 5px;
     border-radius: 10px ;
-    border-color: rgb(134, 219, 236);
+    border-color: rgb(134, 219, 236)
 }
 
 .texto1{
@@ -128,6 +129,7 @@ hr {
     background-color: rgba(134, 219, 236, 0.925);
     width: 30%;
     margin:20px;
+    box-shadow: 10px 10px 10px 1px rgba(22, 181, 255, 0.231);
 
 }
 
@@ -173,13 +175,14 @@ hr {
     border: solid;
     border-radius: 10px;
     border-color:rgb(5, 97, 107);
-    max-width: 100%;
-    height: auto;
+    width: 30vw;
+    box-shadow: 1px 1px 10px 1px rgb(5, 97, 107);
 
 }
 .conteudo3 {
     display: flex;
     align-items: center;
+    justify-content: center;
     border:solid;
     border-width: 5px;
     border-radius: 10px;
@@ -189,13 +192,23 @@ hr {
 
 }
 
+.texte {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+  
+}
+
 .conteudo3 img {
     float:left;
     border: solid;
     border-radius: 10px;
     border-color: rgb(5, 97, 107);
     margin:10px;
-    max-width: 70%;
+    margin-right: 30px;
+    width: 40vw ;
+    box-shadow: 1px 1px 10px 1px rgb(5, 97, 107);
 }
 
 .conteudo3 p {
@@ -204,11 +217,14 @@ hr {
 }
 
 .conteudo3 a {
+    float: left;
     color:rgb(5, 97, 107) ;
     font-weight: bold;
     font-size: 1vw;
     text-decoration: none;
+
 }
+
 
 #linkcalculadora {
     padding: 8px;
@@ -223,19 +239,36 @@ hr {
 
 
 .conteudo4 {
+    background-image: url(imgs/imgconteudo5.png);
+    background-repeat: repeat-x;
+    background-size:auto;
     border:solid;
     border-width: 5px;
     border-radius: 10px;
     border-color: rgb(5, 97, 107);
     border-color: rgb(134, 219, 236);
     padding: 20px;
-
-
+    max-width: 70;
 }
 
+.conteudo4 h1 {
+        display: flex;
+        justify-content: center;
+        background-color: rgba(255, 0, 0, 0.776);
+        border-radius: 5px;
+        box-shadow:5px 5px 5px 1px ;
+        padding: 10px: 
+}
+
+.conteudo4 ul, h3{
+    background-color:;
+
+}
 
 /*Estilzando conteudo do final da pagina da página*/
 .conteudo5 {
+   display: flex;
+   justify-content: center;
     border:solid;
     border-width: 5px;
     border-radius: 10px;
@@ -244,11 +277,35 @@ hr {
     padding: 20px;
 
 }
+.conteudo5 h2 {
+    font-size: 2vw;
+    border:solid;
+    padding:20px;
+    border-color: rgb(5, 97, 107);
+    border-radius: 10px;
+    background-color: rgba(134, 219, 236, 0.925);
+    width:20%;
+    margin:10px;
+    box-shadow: 3px 5px 5px 1px rgb(5, 97, 107);
+}
 
 .conteudo5 li{
+     font-size: 1vw;
+    margin: 15px;
     list-style-type: square;
 }
 
-
+.rodape{
+    background-color:rgba(134, 219, 236, 0.32);
+    border: solid rgb(134, 219, 236);
+    border-radius: 10px;
+    padding: 0px;
+}
+.rodape p {
+    display: flex;
+    justify-content: center;
+    
+    margin: 15px;
+}
 
 
